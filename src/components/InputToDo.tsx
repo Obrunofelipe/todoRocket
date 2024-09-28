@@ -26,6 +26,8 @@ export const InputToDo = ({onCreateNewToDo, onShowError}:Props) => {
                 style={styles.input}
                 onChangeText={setInput}
                 value={input}
+                placeholder='Adicione uma nova tarefa'
+                placeholderTextColor={'#808080'}
             />
             <TouchableOpacity 
                 onPress={handleCreateNewToDo}
@@ -45,10 +47,10 @@ const styles = StyleSheet.create({
         height: 56,
         backgroundColor: '#262626',
         borderRadius: 5,
-        color: '#FFF',
+        color: '#F2F2F2',
         padding: 16,
         fontSize: 16,
-        marginRight: 12
+        marginRight: 12,
     },
     button:{
         height: 56,

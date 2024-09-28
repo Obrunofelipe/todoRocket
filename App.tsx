@@ -90,11 +90,11 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   headerContainerText:{
-    color: '#fff',
+    color: '#f2f2f2',
     fontWeight: 'bold'
   },
   headerContainerCounter:{
-    color: '#fff',
+    color: '#f2f2f2',
     backgroundColor: '#333333',
     width: 30,
     height: 20,
